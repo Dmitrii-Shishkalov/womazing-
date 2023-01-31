@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/womazing/static/css/main.06ab408c.css",
+    "main.js": "/womazing/static/js/main.48d50c92.js",
+    "static/js/787.14ea22b4.chunk.js": "/womazing/static/js/787.14ea22b4.chunk.js",
+    "static/media/brand.png": "/womazing/static/media/brand.1337266dfa82c130b944.png",
+    "static/media/brand (2).png": "/womazing/static/media/brand (2).7a62b21a00188eee656a.png",
+    "static/media/visa-mastercard 1.svg": "/womazing/static/media/visa-mastercard 1.766de341f3e0e9e005ee08cecbb73f33.svg",
+    "static/media/logo.svg": "/womazing/static/media/logo.d7d124241e28c5c0578561615c445359.svg",
+    "static/media/twitter (1) 1.svg": "/womazing/static/media/twitter (1) 1.bf8b37f7ad05a54b6f72627d6b3bfc0c.svg",
+    "static/media/call.svg": "/womazing/static/media/call.a27af570ee40f843a71ad19c7db884dc.svg",
+    "static/media/shopping-bags 1.svg": "/womazing/static/media/shopping-bags 1.25d3c10a0b0a641f00a2d42493ad5892.svg",
+    "static/media/instagram (1) 1.svg": "/womazing/static/media/instagram (1) 1.d2c3522b6737cc9bb36dd1346da9e73a.svg",
+    "static/media/facebook (1) 1.svg": "/womazing/static/media/facebook (1) 1.5e23e944cd9667bb589c52bb6be5dd5b.svg",
+    "index.html": "/womazing/index.html",
+    "static/media/Hamburger_icon.svg": "/womazing/static/media/Hamburger_icon.b778cb1777612594612f0bf2e4ff8477.svg",
+    "static/media/close.svg": "/womazing/static/media/close.c426867b3e3933a2efcf3ac25a21d32e.svg",
+    "main.06ab408c.css.map": "/womazing/static/css/main.06ab408c.css.map",
+    "main.48d50c92.js.map": "/womazing/static/js/main.48d50c92.js.map",
+    "787.14ea22b4.chunk.js.map": "/womazing/static/js/787.14ea22b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06ab408c.css",
+    "static/js/main.48d50c92.js"
+  ]
+}
