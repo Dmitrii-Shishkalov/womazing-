@@ -2,8 +2,8 @@
 
 - ReactJS 18**
 - TypeScript
-- **Redux Toolkit** 
-- React Router v6**
+- **Redux Toolkit
+- React Router v6
 - Axios 
 - React Hooks 
 - Prettier 
