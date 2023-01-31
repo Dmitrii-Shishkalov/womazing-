@@ -2,7 +2,7 @@
 
 - ReactJS 18**
 - TypeScript
-- **Redux Toolkit
+- Redux Toolkit
 - React Router v6
 - Axios 
 - React Hooks 
