@@ -9,4 +9,5 @@
 - Prettier 
 - CSS-Modules / SCSS
 - React Content Loader (скелетон)
-- React Pagination 
+- React Pagination
+- react-responsive-carousel 
