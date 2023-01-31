@@ -1,0 +1,53 @@
+@import '../../Assets/styles/App.module.scss';
+
+.root {
+    .item {
+        display: flex;
+        align-items: center;
+
+        .firstImage {
+            margin-right: 94px;
+        }
+
+        .secondImage {
+            margin-left: 123px;
+        }
+
+        @media (max-width:993px) {
+            flex-direction: column;
+
+            .secondImage,
+            .firstImage {
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 20px;
+            }
+
+            .secondImage {
+                order: -1;
+                margin-top: -7 0px
+            }
+        }
+
+        @media (max-width:445px) {
+            img {
+                max-width: 100%;
+            }
+        }
+
+        h3 {
+            margin-bottom: 48px;
+        }
+
+        p {
+            margin-bottom: 25px;
+            max-width: 542px;
+
+        }
+    }
+
+    button {
+        display: block;
+        margin: 130px auto 0px;
+    }
+}

@@ -1,0 +1,70 @@
+@import '../../Assets/styles/App.module.scss';
+
+.header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 51px;
+
+
+    ul {
+        margin: 0px 50px 0px 75px;
+        list-style: none;
+        display: flex;
+
+        @media(max-width: 1200px) {
+            margin: 0px 0px 0px 25px;
+        }
+
+        @media(max-width: 865px) {
+            display: none;
+        }
+
+        li {
+
+            margin-right: 45px;
+
+            @media(max-width: 1050px) {
+                margin-right: 30px;
+            }
+        }
+
+        .active {
+            color: #6E9C9F;
+        }
+    }
+
+    .contact {
+        display: flex;
+        margin-left: auto;
+
+        @media (max-width:950px) {
+            justify-content: end;
+            margin-left: 20px;
+        }
+
+        @media (max-width:455px) {
+            display: none;
+        }
+    }
+    .cart {
+        display: block;
+        margin-left: auto;
+
+        @media(max-width: 865px) {
+            display: none;
+        }
+    }
+
+    .indexCart {
+        max-width: 55px;
+        padding: 1px 7px 6px 7px;
+        text-align: center;
+        border-radius: 50px;
+        font-size: 12px;
+        color: #fff;
+        background: #998E78;
+        position: relative;
+        top: -20px;
+    }
+}

@@ -1,0 +1,80 @@
+@import '../../Assets/styles/App.module.scss';
+
+.cartProduct {
+    margin-top: 49px;
+    display: flex;
+    align-items: center;
+
+    .close {
+        &:hover {
+            width: 15px;
+        }
+    }
+
+    .cartTitle {
+        font-size: 17px;
+    }
+
+    .cartImg {
+        max-width: 137px;
+        max-height: 181px;
+        margin: 0px 21px 0px 45px;
+    }
+
+    .cartPrice {
+        margin: 0px 151px 0px 164px;
+
+    }
+
+    .count {
+        display: flex;
+        max-width: 67px;
+        text-align: center;
+        padding: 8px 18px;
+        border: 1px solid #000;
+        margin-left: 10px;
+        font-size: 20px;
+
+    }
+
+    button {
+        background: #fff;
+        color: #000;
+        font-size: 25px;
+        padding: 4px 10px;
+        border: 1px solid #000;
+        border-radius: 120px;
+        cursor: pointer;
+
+        &:hover {
+            background: $cl1;
+            color: #fff;
+            transition: all 0.5s ease;
+        }
+    }
+
+    .plus {
+        margin-left: 20px;
+    }
+
+    .minus {
+        margin-right: 13px;
+
+    }
+
+    .addCount {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    .Size {
+        margin-left: 160px;
+    }
+
+    .cartTotal {
+        margin-left: 250px;
+    }
+
+}

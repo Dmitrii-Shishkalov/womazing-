@@ -1,0 +1,17 @@
+$cl1: #6E9C9F;
+$cl2: #509498;
+$cl3: #F1EADC;
+$cl4: #909090;
+$cl4: #868686;
+
+.btnGhost {
+    color: $cl1;
+    background: #fff;
+    border: 1px solid $cl1;
+
+    &:hover {
+        background: $cl1;
+        transition: all 0.7s ease;
+        color: #fff;
+    }
+}

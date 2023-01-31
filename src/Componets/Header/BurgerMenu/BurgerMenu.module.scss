@@ -1,0 +1,80 @@
+@import '../../../Assets/styles/varibeles.scss';
+
+.root {
+    display: none;
+    margin-left: auto;
+
+    @media (max-width:865px) {
+        display: block;
+
+        .burgerMenu {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: fixed;
+            right: 0%;
+            left: -100%;
+            top: 0;
+            align-items: center;
+            bottom: 0;
+            width: 35%;
+            height: 100vh;
+            background-color: $cl1;
+            transition: left 1.2s;
+            z-index: 1;
+
+            @media(max-width: 705px) {
+                width: 40%;
+
+            }
+
+            @media(max-width: 605px) {
+                width: 60%;
+
+            }
+
+            @media(max-width: 430px) {
+                width: 65%;
+
+            }
+
+            .burgerImg {
+                cursor: pointer;
+                display: none;
+                margin-left: auto;
+
+                @media(max-width: 865px) {
+                    display: block;
+                    z-index: -1;
+
+                }
+            }
+
+
+            li {
+                a {
+                    color: #fff;
+                }
+
+                margin-top: 30px;
+                font-size: 28px;
+            }
+        }
+
+        .active {
+            left: -5%;
+
+            @media(max-width: 605px) {
+                left: -12%;
+
+            }
+
+            @media(max-width: 500px) {
+                left: -9%;
+
+            }
+        }
+
+
+    }
+}

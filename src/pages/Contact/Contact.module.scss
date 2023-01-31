@@ -1,0 +1,53 @@
+@import '../../Assets/styles/App.module.scss';
+
+.map {
+    iframe {
+        width: 100%;
+        border: none;
+        height: 476px;
+    }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+
+    @media (max-width:993px) {
+        display: block;
+        margin: 50px auto;
+    }
+
+    div {
+        p {
+            margin: 19px 98px 0px 0px;
+        }
+    }
+}
+
+.writeblock {
+    h3 {
+        margin-bottom: 62px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+
+        button {
+            max-width: 188px;
+            margin-top: 35px;
+        }
+
+        input {
+            max-width: 350px;
+            margin-bottom: 35px;
+        }
+
+        textarea {
+            max-width: 443px;
+            height: 134px;
+
+
+        }
+    }
+}

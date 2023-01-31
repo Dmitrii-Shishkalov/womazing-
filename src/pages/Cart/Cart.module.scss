@@ -1,0 +1,89 @@
+@import '../../Assets/styles/App.module.scss';
+
+.root {
+    @media (max-width:1480px) {
+        overflow: scroll;
+    }
+
+    .cartList {
+        display: flex;
+        padding-bottom: 26px;
+
+
+        li {
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        li:nth-child(2) {
+            margin-left: 410px;
+        }
+
+        li:nth-child(3) {
+            margin-left: 155px;
+        }
+
+        li:nth-child(4) {
+            margin-left: 180px;
+        }
+
+        li:nth-child(5) {
+            margin-left: 210px;
+        }
+    }
+
+    .cartItemWrap {
+        display: grid;
+        grid-template-columns: repeat(1, 0fr);
+        grid-template-rows: repeat(1, 0fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+}
+
+.btnGhost {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+
+
+}
+
+.CheckOutBlock {
+    margin-top: 68px;
+    display: flex;
+    justify-content: end;
+
+    @media (max-width:500px) {
+        flex-direction: column;
+        margin-left: auto;
+
+        button {
+            max-width: 287px;
+            margin-top: 20px;
+        }
+
+    }
+
+    .totalBlock {
+        display: flex;
+        margin-right: 10px;
+        align-items: center;
+        justify-content: space-between;
+        background: $cl3;
+        max-width: 287px;
+        height: 68px;
+
+        h3 {
+            font-size: 25px;
+            padding-left: 31px;
+        }
+
+        p {
+            font-size: 25px;
+            padding-right: 51px;
+        }
+    }
+
+}

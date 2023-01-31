@@ -1,0 +1,75 @@
+@import './libs/normalize';
+@import './varibeles.scss';
+@import './fonts.scss';
+
+h3 {
+    font-size: 25px;
+}
+
+section {
+    margin-top: 130px;
+}
+
+p {
+    font-size: 17px;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+
+    @media(max-width:1150px) {
+        & {
+            width: 90%;
+        }
+    }
+
+
+}
+
+button,
+.btn-ghost {
+    padding: 22px 50px;
+    background: $cl1;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+        background: $cl2;
+        transition: all 0.7s ease;
+    }
+}
+
+.breadcrumbs {
+    margin: 190px 0px 84px 0px;
+
+    h1 {
+        font-size: 55px;
+        margin-bottom: 26px;
+    }
+
+    p {
+        font-size: 17px;
+
+        span {
+            color: $cl4;
+        }
+    }
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #000;
+    color: $cl4;
+    padding-bottom: 16px;
+    font-size: 17px;
+
+}
+
+textarea {
+    font-size: 17px;
+    border: none;
+    border-bottom: 1px solid #000;
+    resize: none;
+}
