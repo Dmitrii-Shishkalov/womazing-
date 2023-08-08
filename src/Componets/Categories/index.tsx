@@ -3,7 +3,7 @@ import { useSelector, } from 'react-redux';
 import { selectCategory, setCategoriesID } from '../../redux/Slices/Filter';
 import { useAppDispatch } from '../../redux/store';
 import styles from './categories.module.scss'
-const categories = ['Все', 'Футболки', 'Свитшоты', 'Купальники', 'Пальто']
+const categories = ['Все', 'Свитшоты', 'Купальники', 'Пальто']
 
 export const Categories = () => {
     const dispatch = useAppDispatch();
